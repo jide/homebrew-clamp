@@ -4,7 +4,7 @@ class Clamp < Formula
   homepage "http://jide.github.io/clamp"
   url "https://github.com/jide/clamp.git", :using => :git, :tag => "1.3.2"
   version "1.3.2"
-  sha1 "79d249f667e6e81964590a1ebbc1593ce7d22080"
+  sha256 "03794e01bc949878c0b233bc810ac0bc49ce64a1a490ecc110b006deebf2b16a"
 
   depends_on "mariadb"
 
