@@ -4,6 +4,7 @@ class Clamp < Formula
   url "https://github.com/jide/clamp.git", :using => :git, :tag => "1.4.2", :revision => "6ab13777fa4f3702d63a7fd77041c929a0045388"
 
   depends_on "mariadb"
+  depends_on "php@7.2"
 
   def install
     inreplace "clamp", %r{/usr/local/clamp}, prefix
